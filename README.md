@@ -14,7 +14,7 @@ LedPost
   Base code modified to accept microchip PIC18F25(26)K80.
   
   
-  Canbus speed is set to 125KBS but could be modified using  ODD_CANbitRat  from CO_OD.h (need recompile).
+  Canbus speed is set to 125KBS but could be modified using  ODD_CANbitRate  from CO_OD.h (need recompile).
 
   Protocol is CanOpen and  it uses 4 RPDOs signal
   
@@ -30,7 +30,9 @@ LedPost
     - bit10..14 Blue  Channel 32 levels value
     - bit15     linear (0)  or gamma 1.5 function (1)
     
+    
   COB-ID 0x300+NodeID (RPDO_1) and COB-ID 0x300   receive 3 byte of information for all led has a hole.
+  
     - byte 0    Red   Channel 256 levels value
     - byte 1    Green Channel 256 levels value
     - byte 2    Blue  Channel 256 levels value
@@ -46,7 +48,7 @@ LedPost
   
   The current code , if you are using the .MCP project has to be in
   
-  c:\CanOpenNode\_src  
+  c:\CanOpenNode\\_src  
   
   You will have to check the Compiler path Also.
   
