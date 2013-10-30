@@ -44,7 +44,7 @@ LedPost
   
   The code has been compile for the PIC18F25K80 and it will work without modification on the PIC18F26K80.
         
-  I'm using Microchip MATLAB IDE V8.90.
+  I'm using Microchip MATLAB IDE V8.90 with C18 compiler
   
   The current code , if you are using the .MCP project has to be in
   
