@@ -204,7 +204,7 @@ void User_Process_RPDO(void){
 #endif
 
 #ifdef __SMALL__
-#pragma   MSG_SMALL_MODEL
+//#pragma   MSG_SMALL_MODEL
 #define  ROMVOID rom void 
 #endif
 
